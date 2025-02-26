@@ -1,0 +1,75 @@
+*{
+    background-color: black;
+}
+body{
+    padding-top: 15%;
+    padding-bottom: 15%;
+    justify-content: center;
+    display: flex;
+    height: 300px;
+}
+.digital-clock{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    max-height: 100%;
+    background-color: black;
+    border: 5px solid rgb(28, 27, 27);
+    border-radius: 30px;
+    color: white;
+}
+.date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#day {
+    font-size: 50px;
+    margin-right: 10px;
+    color: rgb(233, 74, 130);
+}
+#month {
+    font-size: 50px;
+    margin-right: 10px;
+    color: rgb(235, 43, 197);
+}
+#year {
+    font-size: 50px;
+    margin-right: 10px;
+    color: rgb(206, 57, 211)
+}
+.time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    justify-content: space-around;
+}
+.hours{
+    font-size: 45px;
+    margin-right: 10px;
+    color: rgb(150, 219, 89);
+}
+.minutes{
+    font-size: 45px;
+    margin-right: 10px;
+    color: rgb(47, 247, 181);
+}
+.seconds{
+    font-size: 45px;
+    margin-right: 10px;
+    color: rgb(20, 223, 226);
+}
+.display-names{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.toggle-icon{
+    font-size: 45px;
+    cursor: pointer;
+    color: aqua;
+}
+.ampm{
+    font-size: 30px;
+}
